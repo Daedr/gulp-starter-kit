@@ -7,20 +7,20 @@
   vertical-align: $value;
 }
 
-@mixin fira($style: regular) {
+@mixin fontname($style: regular) {
     @if $style == regular {
-        font-family: 'fira_sansregular';
+        font-family: '';
     }
 
     @if $style == medium {
-        font-family: 'fira_sansmedium';
+        font-family: '';
     }
 
     @if $style == bold {
-        font-family: 'fira_sansbold';
+        font-family: '';
     }
     @if $style == light {
-        font-family: 'fira_sanslight';
+        font-family: '';
     }
 }
 
